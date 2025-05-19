@@ -15,34 +15,130 @@
         <nav>
             <ul>
                 <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos_experiencia">Projectos y Experiencia</a></li>
                 <li><a href="#educacion">Educación</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+                <li><a href="#referencia">Referencia</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="perfil">
             <h3>Perfil</h3>
+            <p> <img src="https://placehold.co/150x150" alt="Foto de perfil"> </p>
             <p>Soy Jefferson Saltos, tengo 20 años y estoy cursando en 2 año de la carrera de computación en Espol. Me considero una persona responsable, puntual y con muchas ganas de aprender. Me gusta trabajar en equipo y tengo habilidades en programación. </p>
+            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/LzsdNotN8jg?si=C7iIfiIYNpWB5hpF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </p>
         </section>
-        <section id="experiencia">
-            <h3>Experiencia</h3>
+        <section id="proyectos_experiencia">
+            <h3>Projectos y Experiencia</h3>
             <!-- Detalles de experiencia laboral -->
         </section>
         <section id="educacion">
             <h3>Educación</h3>
-            <p>Estudiante de Ingeniería en Sistemas en la Escuela Superior Politécnica del Litoral (ESPOL) - (2023-Presente).</p>
+            <ol>
+                <li>
+                    Escuela Superior Politécnica del Litoral (ESPOL) - Ingeniería en Sistemas (2023 - Presente)
+                </li>
+                <li>
+                    Unidad Educativa Montessori - Título de Bachiller  (2009 - 2023)
+                </li>
+            </ol>
         </section>
         <section id="habilidades">
             <h3>Habilidades</h3>
+            <table border="border-collapse">
+                <tr>
+                    <th>Nivel</th>
+                    <th>Lenguajes</th>
+                    <th>Herramientas</th>
+                    <th>Otros</th>
+                </tr>
+                <tr>
+                    <td>Avanzado</td>
+                    <td>Python</td>
+                    <td>Git</td>
+                    <td>Trabajo en equipo</td>
+                </tr>
+                <tr>
+                    <td>Intermedio</td>
+                    <td>Java</td>
+                    <td>Visual Studio Code</td>
+                    <td>Resolución de problemas</td>
+                </tr>
+                <tr>
+                    <td>Principiante</td>
+                    <td>HTML</td>
+                    <td>Eclipse</td>
+                    <td>Comunicación efectiva</td>
+                </tr>
+            </table>
             <!-- Lista de habilidades -->
         </section>
+        <section id="formulario">
+            <h3>Formulario de Contacto</h3>
+            <form action="https://example.com/submit" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="asunto">Asunto de consulta?
+                
+                <select>
+                    <option value="consulta">Consulta</option>
+                    <option value="trabajo">Oportunidad laboral</option>
+                    <option value="otro">Otro</option>
+                </select></label>
+
+                <label for="mensaje">Mensaje:
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+                </label>
+            </form>
         <section id="contacto">
             <h3>Contacto</h3>
-            <p>Email: jrsaltos@espol.edu.ec | Telefono: +593 99 999 9999 </p>
+            <p>Email: jrsaltos@espol.edu.ec | Telefono: +593 99 999 9999 | Zona: Guayaquil, Ecuador</p>
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d255168.97061730546!2d-79.964569!3d-2.14788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1747679888355!5m2!1ses-419!2sec" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
         </section>
+        <section id="referencia">
+            <h3>Referencia</h3>
+            <ul>
+                <li>
+                    <strong>Sebastian Manzanilla</strong><br>
+                    Estudiante de Sistemas, ESPOL<br>
+                    Email: sbastian@espol.edu.ec<br>
+                    Teléfono: +593 98 123 4567<br>
+                    <blockquote>
+                        "Jefferson es un estudiante dedicado y siempre demuestra iniciativa en sus proyectos."
+                    </blockquote>
+                </li>
+                <li>
+                    <strong>Ayman el Salous</strong><br>
+                    Estudiante de Espol, ESPOL<br>
+                    Email: ayelsaluus@espol.edu.ec<br>
+                    Teléfono: +593 99 765 4321<br>
+                    <blockquote>
+                        "Destaco la responsabilidad y el compromiso de Jefferson en el trabajo en equipo."
+                    </blockquote>
+                </li>
+                <li>
+                    <strong>Steve Robinson</strong><br>
+                    Mentor de Programación, Comunidad Tech<br>
+                    Email: steve.robinson@comunidadtech.org<br>
+                    Teléfono: +1 555 123 4567<br>
+                    <blockquote>
+                        "Jefferson siempre busca superarse y demuestra gran pasión por la tecnología."
+                    </blockquote>
+                </li>
+            </ul>
+        </section>
+        
     </main>
     <footer>
         &copy; 2025 Jefferson Reynaldo Saltos Álava
