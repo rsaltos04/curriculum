@@ -93,24 +93,35 @@
             <h2>Formulario de Contacto</h2>
             <form action="https://example.com/submit" method="POST">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <br>
+                <input type="text" id="nombre" name="nombre" required>  </input>
+                
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="asunto">Asunto de consulta?
+                <input type="email" id="email" name="email" required> </input>
+                
+                <label for="asunto">Asunto de consulta? </label>
                 
                 <select>
                     <option value="consulta">Consulta</option>
                     <option value="trabajo">Oportunidad laboral</option>
                     <option value="otro">Otro</option>
-                </select></label>
+                </select>
+                
+                <fieldset><legend> Género </legend>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label>
+                
+                </fieldset> 
 
-                <label for="mensaje">Mensaje:
+                <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" required></textarea>
-                <br>
+                
                 <button type="submit">Enviar</button>
-                </label>
+                
+                
             </form>
         </section>
         <section id="contacto">
@@ -122,35 +133,35 @@
         </section>
         <section id="referencia">
             <h2>Referencia</h2>
-            <ul>
-                <li>
-                    <strong>Sebastian Manzanilla</strong><br>
-                    Estudiante de Sistemas, ESPOL<br>
-                    Email: sbastian@espol.edu.ec<br>
-                    Teléfono: +593 98 123 4567<br>
+                    <article>
+                    <p><strong>Sebastian Manzanilla</strong></p>
+                    <p>Estudiante de Sistemas, ESPOL</p>
+                    <p>Email: sbastian@espol.edu.ec</p>
+                    <p>Teléfono: +593 98 123 4567</p>
                     <blockquote>
                         "Jefferson es un estudiante dedicado y siempre demuestra iniciativa en sus proyectos."
                     </blockquote>
-                </li>
-                <li>
-                    <strong>Ayman el Salous</strong><br>
-                    Estudiante de Espol, ESPOL<br>
-                    Email: ayelsaluus@espol.edu.ec<br>
-                    Teléfono: +593 99 765 4321<br>
+                    </article>
+                
+                <article>
+                    <p><strong>Ayman el Salous</strong></p>
+                    <p>Estudiante de Espol, ESPOL</p>
+                    <p>Email: ayelsaluus@espol.edu.ec</p>
+                    <p>Teléfono: +593 99 765 4321</p>
                     <blockquote>
                         "Destaco la responsabilidad y el compromiso de Jefferson en el trabajo en equipo."
                     </blockquote>
-                </li>
-                <li>
-                    <strong>Steve Robinson</strong><br>
-                    Estudiante de Espol, ESPOL<br>
-                    Email: steve.robinson@espol.edu.ec<br>
-                    Teléfono: +593 555 123 4567<br>
+                </article>
+                <article>
+                    <p><strong>Steve Robinson</strong></p>
+                    <p>Estudiante de Espol, ESPOL</p>
+                    <p>Email: steve.robinson@espol.edu.ec</p>
+                    <p>Teléfono: +593 555 123 4567</p>
                     <blockquote>
                         "Jefferson siempre busca superarse y demuestra gran pasión por la tecnología."
                     </blockquote>
-                </li>
-            </ul>
+                </article>
+            
         </section>
         
     </main>
